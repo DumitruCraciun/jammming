@@ -64,7 +64,7 @@ function App() {
         />
       </div>
 
-      <footer className="app-footer">
+      <footer className={`app-footer ${searchResults.length > 0 ? 'has-results' : ''}`}>
         <p>© 2026 Jammming — Music Playlist Manager</p>
         <p>Built with React, JavaScript & Last.fm API by Dumitru Craciun</p>
       </footer>

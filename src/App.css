@@ -21,6 +21,7 @@ body {
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
 }
 
 /* Titlul - mai mic și bine încadrat */
@@ -236,11 +237,16 @@ body {
 
 .app-footer {
     text-align: center;
-    margin-top: 60px;
+    margin-top: calc(69vh - 310px);      /* Ajustează înălțimea pentru a împinge footer-ul în jos */
     padding: 20px;
     font-size: 0.8rem;
     color: #aaa;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Când sunt rezultate, margin-top scade */
+.app-footer.has-results {
+    margin-top: 30px;
 }
 
 /* Responsive */
