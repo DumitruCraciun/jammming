@@ -64,7 +64,7 @@ function App() {
         />
       </div>
 
-      <footer>
+      <footer className="app-footer">
         <p>© 2026 Jammming — Music Playlist Manager</p>
         <p>Built with React, JavaScript & Last.fm API by Dumitru Craciun</p>
       </footer>
