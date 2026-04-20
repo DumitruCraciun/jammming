@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/jammming/',		// / Numele repository-ului pe GitHub
   build: {
-    outDir: 'docs',  	// Schimb din 'dist' în 'docs'
+    outDir: 'dist',  	// Schimb din 'dist' în 'docs'
   }
 })
